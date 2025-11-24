@@ -1,0 +1,30 @@
+{
+  "name": "axiom-replica-plain-css",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ext .ts,.tsx src",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,md}\""
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "1.9.5",
+    "@tanstack/react-query": "5.0.0",
+    "clsx": "1.2.1",
+    "framer-motion": "10.12.16",
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "8.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.21",
+    "eslint": "8.46.0",
+    "eslint-config-next": "14.0.0",
+    "prettier": "2.8.8",
+    "typescript": "^5.9.3"
+  }
+}
